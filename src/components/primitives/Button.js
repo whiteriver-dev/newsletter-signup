@@ -1,5 +1,6 @@
 // Button.js
 import React from 'react';
+import './Button.scss'
 
 function Button({text, className}) {
   return (
