@@ -1,10 +1,10 @@
-import { Button } from './components/index.js'
+import { EmailSignup } from './components/index.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button text="Subscribe to monthly newsletter" className='subscribe-btn'/>
+        <EmailSignup/>
       </header>
     </div>
   );
