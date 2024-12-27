@@ -6,3 +6,5 @@ function NewsletterSignupTemplate() {
         <EmailSignup/>
     )
 }
+
+export default NewsletterSignupTemplate;

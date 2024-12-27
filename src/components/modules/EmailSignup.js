@@ -30,6 +30,7 @@ function EmailSignup() {
       <form className='signup-field' onSubmit={handleSubmit}>
         <SignupField
           labelText='Email Address'
+          errorText={error}
           type='email'
           id='email-signup'
           className={`email-signup ${error ? 'invalid' : ''}`}
