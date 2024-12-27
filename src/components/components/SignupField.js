@@ -1,11 +1,14 @@
 import React from 'react';
+import './SignupField.scss'
 
-function SignupField({labelText, inputType = "text", id, className, placeholder, value, onChange, handleSubmit}) {
+function SignupField({labelText, inputType = "text", id, className, placeholder, value, onChange}) {
     return (
     <div>
-        <label htmlFor={id} className='signup-field-label'>
-          {labelText}
-        </label>
+        <div className='label-container'>
+          <label htmlFor={id} className='signup-field-label'>
+            {labelText}
+          </label>
+        </div>
         <input
           type={inputType}
           id={id}

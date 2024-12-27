@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+
+label {
+    font-size: 12px;
+    font-weight: 700;
+    color: $Dark-navy;
+}
+
+input {
+    width: 100%;
+    padding: 16px 24px;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+
+/*
+.signup-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    label {
+        font-size: 14px;
+        font-weight: 700;
+        color: $Dark-navy;
+        margin-bottom: 10px;
+    }
+
+    input {
+        all: unset;
+        background: $Light-gray;
+        padding: 15px 20px;
+        border-radius: 8px;
+        font-size: 16px;
+        color: $Dark-navy;
+        transition: background 1s ease;
+
+        &:focus {
+            background: $White;
+            box-shadow: 0px 16px 32px 0px rgba(255,97,85,0.5);
+        }
+    }
+}
+
+*/

@@ -6,3 +6,6 @@ Component design methodology: Atomic design principles.
 - Pages
 
 Things I learned:
+- Creating basic React components
+- SCSS styling
+- Event/Change handling in React
