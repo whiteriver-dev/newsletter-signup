@@ -9,6 +9,8 @@ ul {
     list-style-image: url('../../assets/images/icon-list.svg');
     list-style-type: none;
     box-sizing: border-box;
+    margin-bottom: 40px;
+    padding-left: 24px;
 }
 
 p {
@@ -18,11 +20,6 @@ p {
 li {
     margin-bottom: 10px;
     padding-left: 16px;
-}
-
-ul {
-    margin-bottom: 40px;
-    padding-left: 24px;
 }
 
 .content-container {
