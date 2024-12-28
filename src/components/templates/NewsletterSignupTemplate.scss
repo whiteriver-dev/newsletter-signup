@@ -1,5 +1,6 @@
 @import '../../styles/variables';
 
+
 img {
     width: 100%;
 }
@@ -7,6 +8,21 @@ img {
 ul {
     list-style-image: url('../../assets/images/icon-list.svg');
     list-style-type: none;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 24px;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 16px;
+}
+
+ul {
+    margin-bottom: 40px;
+    padding-left: 24px;
 }
 
 .content-container {
@@ -15,5 +31,6 @@ ul {
 
 .text-container {
     padding: 40px 24px;
-    color: $Dark-navy
+    color: $Dark-navy;
+    line-height: 1.5;
 }
