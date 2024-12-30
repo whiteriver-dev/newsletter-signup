@@ -6,7 +6,7 @@ import './NewsletterSignupTemplate.scss';
 
 // This is a non-reusable component
 
-function NewsletterSignupTemplate() {
+function NewsletterSignupTemplate({setEmail, setSubscribed}) {
     return (
         <div className='content-container'>
             <img src={Illustration} alt='Illustration' />
@@ -18,7 +18,7 @@ function NewsletterSignupTemplate() {
                     <li>Measuring to ensure updates are a success</li>
                     <li>And much more!</li>
                 </ul>
-                <EmailSignup/>
+                <EmailSignup setEmail={setEmail} setSubscribed={setSubscribed}/>
             </div>
         </div>
     )

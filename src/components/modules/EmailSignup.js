@@ -1,14 +1,14 @@
 // EmailSignup.js
 import React, {useState} from 'react';
-import { Button, SignupField } from '../'
-import './EmailSignup.scss'
+import { Button, SignupField } from '../';
+import './EmailSignup.scss';
 
-function EmailSignup() {
+function EmailSignup({ setEmail, setSubscribed }) {
   const [error, setError] = useState('');
-  const [email, setEmail] = useState('');
+  const [email, setLocalEmail] = useState('');
 
   const onChange = (event) => {
-    setEmail(event.target.value);
+    setLocalEmail(event.target.value);
     setError('');
   }
 
@@ -19,6 +19,8 @@ function EmailSignup() {
     }
     else {
       setError('');
+      setEmail(email);
+      setSubscribed(true);
     }
   }
 
