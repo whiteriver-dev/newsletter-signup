@@ -8,9 +8,9 @@ import './NewsletterSignupTemplate.scss';
 
 function NewsletterSignupTemplate() {
     return (
-        <div class='content-container'>
+        <div className='content-container'>
             <img src={Illustration} alt='Illustration' />
-            <div class='text-container'>
+            <div className='text-container'>
                 <h1>Stay updated!</h1>
                 <p>Join 60,000+ product managers receiving monthly updates on:</p>
                 <ul>

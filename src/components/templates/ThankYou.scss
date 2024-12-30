@@ -1,7 +1,8 @@
 @import '../../styles/variables.scss';
 
-img {
+.success-icon {
     max-width: 64px;
+    margin-bottom: 20px;
 }
 
 body, html, #root, .App, .App-header {
@@ -13,17 +14,21 @@ body, html, #root, .App, .App-header {
     justify-content: center;
 }
 
-.text-container {
+.thank-you.text-container {
     padding: 0;
 }
 
 
-.content-container {
+.thank-you {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 40px 24px;
-    margin-top: 25%;
+    margin-top: 30%;
+
+    h1 {
+        line-height: 1;
+    }
 }
 
 span {

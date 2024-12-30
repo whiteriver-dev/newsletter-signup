@@ -9,9 +9,9 @@ import '../primitives/Button.scss';
 
 function ThankYou({ email }) {
     return (
-        <div class='content-container'>
-            <div class='text-container'>
-                <img src={IconSuccess} alt='Success Icon' />
+        <div className='thank-you'>
+            <div className='text-container'>
+                <img class='success-icon' src={IconSuccess} alt='Success Icon' />
                 <h1>Thanks for subscribing!</h1>
                 <p>A confirmation email has been sent to <span>{email}</span>. Please open it and click the button inside to confirm your subscribtion.</p>
             </div>
