@@ -1,6 +1,7 @@
 import React from 'react';
 import { EmailSignup } from '..';
-import Illustration from '../../assets/images/illustration-sign-up-mobile.svg';
+import MobileIllustration from '../../assets/images/illustration-sign-up-mobile.svg';
+import DesktopIllustration from '../../assets/images/illustration-sign-up-desktop.svg'; 
 import './NewsletterSignupTemplate.scss';
 
 
@@ -9,7 +10,7 @@ import './NewsletterSignupTemplate.scss';
 function NewsletterSignupTemplate({setEmail, setSubscribed}) {
     return (
         <div className='content-container'>
-            <img src={Illustration} alt='Illustration' />
+            <img class='mobile-illustration' src={MobileIllustration} alt='Mobile Illustration' />
             <div className='text-container'>
                 <h1>Stay updated!</h1>
                 <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -20,6 +21,7 @@ function NewsletterSignupTemplate({setEmail, setSubscribed}) {
                 </ul>
                 <EmailSignup setEmail={setEmail} setSubscribed={setSubscribed}/>
             </div>
+            <img class='desktop-illustration' src={DesktopIllustration} alt='Desktop Illustration' />
         </div>
     )
 }
