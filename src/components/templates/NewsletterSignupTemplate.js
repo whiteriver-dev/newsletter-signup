@@ -1,7 +1,7 @@
 import React from 'react';
 import { EmailSignup } from '..';
-import Illustration from '../../assets/images/illustration-sign-up-mobile.svg'
-import './NewsletterSignupTemplate.scss'
+import Illustration from '../../assets/images/illustration-sign-up-mobile.svg';
+import './NewsletterSignupTemplate.scss';
 
 
 // This is a non-reusable component

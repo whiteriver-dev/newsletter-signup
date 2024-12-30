@@ -1,0 +1,33 @@
+@import '../../styles/variables.scss';
+
+img {
+    max-width: 64px;
+}
+
+body, html, #root, .App, .App-header {
+    height: 100%;
+}
+
+.App-header {
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    padding: 0;
+}
+
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 24px;
+    margin-top: 25%;
+}
+
+span {
+    font-weight: 700;
+}
+
+

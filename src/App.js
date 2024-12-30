@@ -1,10 +1,10 @@
-import { NewsletterSignupTemplate } from './components/index.js'
+import { NewsletterSignupTemplate, ThankYou} from './components/index.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NewsletterSignupTemplate/>
+        <ThankYou/>
       </header>
     </div>
   );
